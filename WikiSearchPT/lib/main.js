@@ -7,7 +7,7 @@ exports.main = function(options, callbacks) {
  
   // Create a new context menu item.
   var menuItem = contextMenu.Item({
-    label: "Pesquisar no Wikipédia",
+    label: "Pesquisar na Wikipédia",
     // Show this item when a selection exists.
     context: contextMenu.SelectionContext(),
     // When this item is clicked, post a message back with the selection
